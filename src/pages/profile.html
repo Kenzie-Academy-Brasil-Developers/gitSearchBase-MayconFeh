@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Git Search - User Profile</title>
-  </head>
-  <body>
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/globalStyles.css">
+  <link rel="stylesheet" href="../styles/profile.css">
 
-    <script type="module" src="../scripts/profile.js"></script>
-  </body>
+  <title>Git Search - User Profile</title>
+</head>
+
+<body>
+  <div class="user__container">
+    <div class="user-name__container">
+      <figure>
+        <img class='avatar-img' src="" alt="">
+      </figure>
+      <h1>Maycon</h1>
+    </div>
+    <button class="change-user__button">Trocar de usuário</button>
+  </div>
+  <ul class="repositories__container">
+  </ul>
+  <script type="module" src="../scripts/profile.js"></script>
+</body>
+
 </html>
