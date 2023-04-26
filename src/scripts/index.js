@@ -3,7 +3,7 @@ function renderProfileOrErro() {
     const button = document.querySelector('.button__submit')
 
     button.addEventListener('click', async () => {
-        const getAllData = await fetch(`https://api.github.com/users/${input.value}`, {
+        const getAllData = await fetch(`https://api.github.com/users/${input.value.replaceAll(' ','')}`, {
             method: 'GET'
         })
             .then((res) => {
